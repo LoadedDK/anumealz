@@ -1,0 +1,302 @@
+/* 폰트설정 */
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+body, th, td, select, input, button, textarea {
+font-family:"나눔고딕", "NanumGothic", "ngeot", "돋움", "DotumChe", "Dotum";
+}
+* {
+margin: 0 auto;
+}
+
+#wrapper {
+top: 0;
+}
+#head {
+width:100%;
+height:50px;
+}
+	.logo {
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	font-family: 'Hanna', sans-serif;
+	font-size: 32pt;
+	color: #333333;
+	letter-spacing: 0px;
+	}
+		.logo_o {
+		color: orange;
+		}
+
+#body {
+margin-top: 20px;
+width:100%;
+}
+	#content_a {
+	width:100%;
+	text-align: center;
+	}
+	#content_b {
+	width:100%;
+	text-align: center;
+	margin-top: 20px;
+	}
+		.content_location_a {
+		margin: 5px 0 0 0;
+		width:100%;
+		font-family: 'Hanna', sans-serif;
+		font-size: 20pt;
+		color: #333333;
+		}
+		.content_location_b {
+		margin: 5px 0 0 0;
+		width:100%;
+		font-family: 'Hanna', sans-serif;
+		font-size: 20pt;
+		color: #333333;
+		}
+			.content_location_font_a {
+			color: #1664cf;
+			}
+			.content_location_font_b {
+			color: #339999;
+			}
+		
+		.content_date {
+		width:100%;
+		font-family: 'Hanna', sans-serif;
+		font-size: 16pt;
+		color: #333333;
+		}
+			.content_date_small {
+			font-family: 'Hanna', sans-serif;
+			font-size: 14pt;
+			color: #999999;
+			}
+		.content_menu {
+		margin-top: 10px;
+		width:80%;
+		padding: 20px 0 20px 0;
+		
+		background-color: #eeeeee;
+		font-size: 14pt;
+		font-weight: 500;
+		color: #333333;
+		}	
+		.content_button {
+		width: 60%;
+		}
+
+
+/*생활관 식당메뉴 자세히보기 영역*/
+.dorm {
+	width:100%;
+	text-align: center;
+}
+.dorm_title {
+margin: 0 0 20px 0;
+width:100%;
+font-family: 'Hanna', sans-serif;
+font-size: 20pt;
+color: #333333;
+}
+
+/*학생식당메뉴 자세히보기 영역*/
+.student {
+	width:100%;
+	text-align: center;
+}
+.student_title {
+margin: 0 0 20px 0;
+width:100%;
+font-family: 'Hanna', sans-serif;
+font-size: 20pt;
+color: #333333;
+}
+
+/*간식*/
+#snack {
+	background-color: #ffffff;
+}
+
+.snack {
+	width:100%;
+	text-align: center;
+}
+.snack_title {
+margin: 0 0 10px 0;
+width:100%;
+font-family: 'Hanna', sans-serif;
+font-size: 20pt;
+color: #333333;
+}
+.content_location_font_snack {
+color: #806b34;
+}
+.snack_content {
+margin-top: 10px;
+font-size: 13pt;
+line-height: 25px;
+}
+
+/*분식*/
+#flour {
+	background-color: #ffffff;
+}
+.flour {
+	width:100%;
+	text-align: center;
+}
+.flour_title {
+margin: 0 0 10px 0;
+width:100%;
+font-family: 'Hanna', sans-serif;
+font-size: 20pt;
+color: #333333;
+}
+.content_location_font_flour{
+color: #ff3366;
+}
+.flour_content {
+margin-top: 10px;
+font-size: 13pt;
+line-height: 25px;
+}
+
+/*이용안내*/
+.guide {
+	width:100%;
+	text-align: center;
+}
+.guide_title {
+margin: 0 0 10px 0;
+width:100%;
+font-family: 'Hanna', sans-serif;
+font-size: 20pt;
+color: green;
+}
+.guide_box {
+margin-bottom: 15px;
+}
+.guide_location {
+font-size: 13pt;
+font-weight: bold;
+}
+.guide_content {
+margin-top: 10px;
+font-size: 11pt;
+line-height: 25px;
+}
+.guide_price {
+color: #0066cc;
+font-size: 10pt;
+}
+.guide_kakao {
+width: 100%;
+text-align: center;
+margin-top: 20px;
+color: #cc3300;
+font-size: 12pt;
+}
+.guide_men {
+width: 100%;
+text-align: center;
+margin-top: 5px;
+color: #333333;
+font-size: 12pt;
+}
+/*인트로*/
+#intro_box {
+margin: 0 auto;
+width: 100%;
+position: absolute;
+top: 30%;
+padding-right: 30px;
+}
+#intro_title {
+width:100%;
+text-align: center;
+margin: 0 atuo;
+font-family: 'Hanna', sans-serif;
+font-size: 25pt;
+color: #333333;
+}
+	.intro_title_a {
+	color: #3399cc;
+	font-size: 20pt;
+	}
+	.intro_title_b {
+	color: orange;
+	}
+#intro_comment {
+width: 100%;
+margin-top: 20px;
+text-align: center;
+color: #333333;
+font-size: 12pt;
+line-height: 25px;
+}
+#intro_copy {
+width: 100%;
+margin-top: 30px;
+text-align: center;
+color: #999999;
+font-size: 10pt;
+}
+/*웹앱 설치 화면*/
+#intro_box_b {
+width: 70%;
+margin: 0 15% 0 15%;
+position: absolute;
+bottom: 10%;
+}
+#webapp_logo {
+width:100%;
+text-align: center;
+margin: 0 atuo;
+font-family: 'Hanna', sans-serif;
+font-size: 25pt;
+color: #333333;
+position: absolute;
+top: 40%;
+}
+.homebutton_box {
+	position: relative;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e5ebee+18,d7dee3+31,ffffff+100 */
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(229,235,238,1) 18%, rgba(215,222,227,1) 31%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(18%,rgba(229,235,238,1)), color-stop(31%,rgba(215,222,227,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,235,238,1) 18%,rgba(215,222,227,1) 31%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,235,238,1) 18%,rgba(215,222,227,1) 31%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,235,238,1) 18%,rgba(215,222,227,1) 31%,rgba(255,255,255,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(229,235,238,1) 18%,rgba(215,222,227,1) 31%,rgba(255,255,255,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+	
+	border: 1px solid #bbbbbb;
+	height: 80px;
+	border-radius: 10px;
+	padding: 10px;
+}
+.homebutton_box:after, .homebutton_box:before {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.homebutton_box:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-top-color: #ffffff;
+	border-width: 20px;
+	margin-left: -20px;
+
+}
+.homebutton_box:before {
+	border-color: rgba(187, 187, 187, 0);
+	border-top-color: #bbbbbb;
+	border-width: 21px;
+	margin-left: -21px;
+}
